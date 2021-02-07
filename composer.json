@@ -1,0 +1,12 @@
+{
+    "name": "bouba/site_presentation",
+    "description": "appli de presentation",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "boubasano",
+            "email": "boubasano@yahoo.fr"
+        }
+    ],
+    "require": {}
+}

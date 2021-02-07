@@ -1,0 +1,89 @@
+#navbarNav .img-header{
+    display: flex;
+    justify-content: center;
+
+}
+.bandeau_header{
+    margin-top: 50px;
+    background: dimgray;
+}
+
+.contenu-site{
+    margin-top: 100px;
+}
+
+.titre-section {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.text-cv{
+    background: floralwhite;
+}
+
+.carousel-control-prev-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.myCaption{
+    color: black;
+}
+
+#navbarNav{
+   margin-left: 750px;
+}
+ .presentation-block{
+     display: flex;
+     justify-content: flex-start;
+ }
+
+.titre-presentation{
+    margin-left: 18px;
+
+}
+
+ .img-presentation{
+     position: absolute;
+     width: 535px;
+     height: 380px;
+ }
+
+.img-presentation:hover{
+    width: 800px;
+    height: 500px;
+}
+
+.clearfix{
+    background: lightgray;
+    display: flex;
+    justify-content: center;
+    /*position: fixed;*/
+    bottom: 0;
+    color: black;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.logo{
+    width: 150px;
+    height: 70px;
+}
+
+.picto{
+    width: 80px;
+    height: 50px;
+}
+
+
+
+
+
