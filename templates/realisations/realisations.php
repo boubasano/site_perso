@@ -2,14 +2,10 @@
 
     <h1 class="titre-section titre-realisation">Réalisations</h1>
     <hr>
-    <div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores atque
-            corporis cupiditate
-            debitis
-            dignissimos
-            dolore earum eligendi ex explicabo fugiat iusto laudantium, nisi nobis, placeat totam ullam, unde velit
-            voluptas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto eius excepturi, fuga id illo
-            in iste</p>
+    <div class="block-text-realisations">
+        <div class="text-realisations">
+           
+        </div>
 
     </div>
     <div class="card-realisations">

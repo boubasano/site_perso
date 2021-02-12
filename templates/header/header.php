@@ -15,6 +15,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="#realisations">Réalisations</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
         </ul>
         <div class="contact-header">boubasano@yahoo.fr&emsp;07 78 82 31 08&emsp;
 

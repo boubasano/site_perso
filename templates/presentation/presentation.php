@@ -4,14 +4,23 @@
 
     <div class="presentation-block col-lg-12">
 
-        <p class="presentation-text col-lg-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores atque
-            corporis cupiditate
-            debitis
-            dignissimos
-            dolore earum eligendi ex explicabo fugiat iusto laudantium, nisi nobis, placeat totam ullam, unde velit
-            voluptas.
+        <div class="presentation-text col-lg-8"> J'ai la <b>conviction</b> que pour être <b>épanoui</b> pleinement il faut
+            se fixer des <b>objectifs</b> et s'y accrocher fermement. <br>
+            C'est ce que je fais depuis maintenant 3 ans, lorsque j'ai décidé de faire une réconversion pour ce domaine.
+            <br><b>Curieux</b> de nature, j'ai eté attiré tout naturellement vers ce domaine du fait de sa diversité,
+            mais aussi parce que l'IT est l'avenir de demain et je me sens <b>reconnaissant</b> de participer à cet
+            essort.
+            <br> J'ai commencé en autodidacte et par la suite des choses j'ai intégré des formations qui m'ont apporté
+            <details>
+                <summary>Lire la suite ...</summary>
+                mais aussi m'ont donné la certitude que je voulais faire partie de ce monde.
+                <br> Si vous voulez me donner de la <b>force</b> pour mon projet, un partage sur les réseaux, un
+                <b>avis</b> et surtout une <b>collaboration</b> seront l'occasion de vous apporter mon
+                <b>savoir-faire</b> et mon <b>savoir-être</b>
 
-        </p>
+            </details>
+
+        </div>
         <div class="col-lg-4 cercle">
 
         </div>

@@ -1,59 +1,60 @@
 <div class="container contact-section">
-    <h1 class="titre-section titre-presentation">Contact</h1>
+    <h1 class="titre-section titre-contact">Contact</h1>
     <hr>
 
     <div class="contact-item">
 
         <div class="card text-center">
             <div class="card-body">
-                <h3 class="card-title">Concepteur Développeur Web et Application</h3>
-                <p class="card-text"><h4>Aboubacar SANO</h4>
-                                        <b>Email: </b>boubasano@yahoo.fr <br>
-                                        <b>Téléphone:</b>07 78 82 31 08 <br>
-                                        <b>Lien linkedin:</b>www.linkedin.com/in/aboubacar-sano-ab66a21b4</p>
+                <h3 class="card-title">Concepteur Développeur Web et Applications</h3>
+                <h3>Aboubacar SANO</h3>
+                <p class="card-text">
+                    <b>Email: </b>boubasano@yahoo.fr <br>
+                    <b>Téléphone:</b>07 78 82 31 08 <br>
+                    <b>Lien linkedin:</b>www.linkedin.com/in/aboubacar-sano-ab66a21b4</p>
             </div>
         </div>
 
         <div class="social-button">
             <div>
-                <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://simplesharebuttons.com"
-                   target="_blank">
-                    <img src="https://simplesharebuttons.com/images/somacro/linkedin.png"
-                         alt="LinkedIn"/>
-                </a>
-            </div> &emsp;
-            <div>
-                <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com"
-                   target="_blank">
-                    <img src="https://simplesharebuttons.com/images/somacro/facebook.png"
-                         alt="Facebook"/>
-                </a>
-            </div> &emsp;
-            <div>
-                <a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://simplesharebuttons.com">
-                    <img src="https://simplesharebuttons.com/images/somacro/email.png"
-                         alt="Email"/>
-                </a>
-            </div> &emsp;
-            <div>
-                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw"
-                   class="twitter-share-button"
-                   data-size="large"
-                   data-show-count="false">Tweet
-                </a>
+                <!-- Facebook -->
+                <a target="_blank" title="Facebook"
+                   href="https://www.facebook.com/sharer.php?u=https://tontonduweb.com/previews-warc/genieCivil/article1.html"
+                   rel="nofollow"
+                   onclick="window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=500,width=700');return false;"><img
+                            src="iconrs/facebook_icon.png" alt="Facebook"/></a>
+                <!-- //Facebook -->
+
+                <!-- Twitter -->
+                <a target="_blank" title="Twitter"
+                   href="https://twitter.com/share?url=https://bit.ly/2sI7H3v"
+                   rel="nofollow"
+                   onclick="window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=700');return false;"><img
+                            src="iconrs/twitter_icon.png" alt="Twitter"/></a>
+                <!-- //Twitter -->
+
+                <!-- Google + -->
+                <a target="_blank" title="Google +"
+                   href="https://plus.google.com/share?url=https://tontonduweb.com/previews-warc/genieCivil/article1.html"
+                   rel="nofollow"
+                   onclick="window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=450,width=650');return false;"><img
+                            src="iconrs/gplus_icon.png" alt="Google Plus"/></a>
+                <!-- //Google + -->
+
+                <!-- Linkedin -->
+                <a target="_blank" title="Linkedin"
+                   href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://tontonduweb.com/previews-warc/genieCivil/article1.html"
+                   rel="nofollow"
+                   onclick="window.open(this.href, '','menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=450,width=650');return false;"><img
+                            src="iconrs/linkedin_icon.png" alt="Linkedin"/></a>
+                <!-- //Linkedin -->
+
+                <!-- Email -->
+                <a target="_blank" title="Envoyer par mail"
+                   href="mailto:?Subject=Regarde ça c'est cool !&amp;Body=regarde%20cet%20article%20c'est%20super !%20 https://tontonduweb.com/previews-warc/genieCivil/article1.html"
+                   rel="nofollow"><img src="iconrs/email_icon.png" alt="email"/></a>
+                <!-- //Email -->
             </div>
-
-            <script async src="https://platform.twitter.com/widgets.js"
-                    charset="utf-8">
-            </script>&emsp;
-            <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&layout=button&size=large&width=93&height=28&appId"
-                    width="93" height="28" style="border:none;
-            overflow:hidden" scrolling="no" frameborder="0"
-                    allowfullscreen="true"
-                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-
-            </iframe>
-
         </div>
     </div>
 

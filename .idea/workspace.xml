@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18ed9d98-7d3f-4c1c-b13b-466c158fc486" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/contact/contact.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/diplomes/diplomes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/site_presentation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/site_presentation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/imagesPHP.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/logo-angular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/symfony_black_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/symfony_black_02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/cv/cv.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cv/cv.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/footer/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/contact/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact/contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/header/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/presentation/presentation.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/presentation/presentation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/realisations/realisations.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/realisations/realisations.php" afterDir="false" />
@@ -188,7 +179,16 @@
       <workItem from="1613127053128" duration="1761000" />
       <workItem from="1613128866896" duration="1780000" />
       <workItem from="1613130691110" duration="1785000" />
-      <workItem from="1613132528486" duration="486000" />
+      <workItem from="1613132528486" duration="1776000" />
+      <workItem from="1613134337876" duration="1782000" />
+      <workItem from="1613136179453" duration="1779000" />
+      <workItem from="1613140648389" duration="1188000" />
+      <workItem from="1613157871267" duration="1776000" />
+      <workItem from="1613159686064" duration="1786000" />
+      <workItem from="1613161506137" duration="1778000" />
+      <workItem from="1613163318954" duration="1780000" />
+      <workItem from="1613165178658" duration="1848000" />
+      <workItem from="1613167093597" duration="2435000" />
     </task>
     <servers />
   </component>
