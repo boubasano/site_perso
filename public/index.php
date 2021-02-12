@@ -13,41 +13,46 @@
     <title>appli presentation</title>
 </head>
 <body>
-
-<header>
-    <?php
-    // show header page
-    include './../templates/header/header.php';
-    ?>
-</header>
 <main>
-    <div class="container contenu-site">
-        <div id="presentation">
-            <?php
-            include './../templates/presentation/presentation.php';
-            ?>
-        </div>
-        <div id="cv" class="container-fluid cv-home">
-            <?php
-            include './../templates/cv/cv.php';
-            ?>
-        </div>
-        <div id="realisations" class="container">
-            <?php
-            include './../templates/realisations/realisations.php';
-            ?>
-        </div>
-    </div>
+    <header>
+        <?php
+        // show header page
+        include './../templates/header/header.php';
+        ?>
+    </header>
+    <section id="presentation">
+        <?php
+        include './../templates/presentation/presentation.php';
+        ?>
+    </section>
+    <section id="cv">
+        <?php
+        include './../templates/cv/cv.php';
+        ?>
+    </section>
+    <section id="diplomes">
+        <?php
+        include './../templates/diplomes/diplomes.php';
+        ?>
+    </section>
+    <section id="realisations">
+        <?php
+        include './../templates/realisations/realisations.php';
+        ?>
+    </section>
+    <section id="contact">
+    <?php
+    include './../templates/contact/contact.php';
+    ?>
+    </section>
+    <footer class="footer">
+        <?php
+        //show footer page
+        include './../templates/footer/footer.php';
+        ?>
+    </footer>
 </main>
 
-
-<footer class="footer">
-    <?php
-    //show footer page
-    include './../templates/footer/footer.php';
-    ?>
-
-</footer>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

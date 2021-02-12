@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18ed9d98-7d3f-4c1c-b13b-466c158fc486" name="Default Changelist" comment="" />
+    <list default="true" id="18ed9d98-7d3f-4c1c-b13b-466c158fc486" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/contact/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/diplomes/diplomes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/site_presentation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/site_presentation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/imagesPHP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logo-angular.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/symfony_black_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/symfony_black_02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cv/cv.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cv/cv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/footer/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/header/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/presentation/presentation.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/presentation/presentation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/realisations/realisations.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/realisations/realisations.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -89,7 +105,90 @@
       <workItem from="1612734698817" duration="1165000" />
       <workItem from="1612736526894" duration="449000" />
       <workItem from="1612737060346" duration="1620000" />
-      <workItem from="1612739061521" duration="719000" />
+      <workItem from="1612739061521" duration="1697000" />
+      <workItem from="1612740812032" duration="1670000" />
+      <workItem from="1612742526060" duration="49000" />
+      <workItem from="1612747931535" duration="637000" />
+      <workItem from="1612749127461" duration="889000" />
+      <workItem from="1612771325784" duration="1725000" />
+      <workItem from="1612773348000" duration="1886000" />
+      <workItem from="1612775506142" duration="1735000" />
+      <workItem from="1612777386309" duration="1573000" />
+      <workItem from="1612779221706" duration="1918000" />
+      <workItem from="1612781182164" duration="718000" />
+      <workItem from="1612785884433" duration="1777000" />
+      <workItem from="1612787705705" duration="1774000" />
+      <workItem from="1612789561384" duration="1778000" />
+      <workItem from="1612791376235" duration="2625000" />
+      <workItem from="1612794340792" duration="1064000" />
+      <workItem from="1612797468516" duration="2126000" />
+      <workItem from="1612800153958" duration="799000" />
+      <workItem from="1612821404254" duration="1895000" />
+      <workItem from="1612823337322" duration="1780000" />
+      <workItem from="1612825153846" duration="1778000" />
+      <workItem from="1612828490966" duration="1315000" />
+      <workItem from="1612830472692" duration="1779000" />
+      <workItem from="1612832291624" duration="126000" />
+      <workItem from="1612859118973" duration="641000" />
+      <workItem from="1612861159728" duration="606000" />
+      <workItem from="1612863995730" duration="1772000" />
+      <workItem from="1612865833262" duration="1560000" />
+      <workItem from="1612867729426" duration="1640000" />
+      <workItem from="1612872098399" duration="1717000" />
+      <workItem from="1612873988944" duration="1194000" />
+      <workItem from="1612876541785" duration="1846000" />
+      <workItem from="1612878450827" duration="1777000" />
+      <workItem from="1612880362187" duration="1851000" />
+      <workItem from="1612882255625" duration="1825000" />
+      <workItem from="1612884130279" duration="1808000" />
+      <workItem from="1612885983405" duration="1778000" />
+      <workItem from="1612887817794" duration="1780000" />
+      <workItem from="1612889661703" duration="1781000" />
+      <workItem from="1612891473122" duration="1782000" />
+      <workItem from="1612893317940" duration="1784000" />
+      <workItem from="1612895137578" duration="1555000" />
+      <workItem from="1612957142736" duration="1774000" />
+      <workItem from="1612958967209" duration="1612000" />
+      <workItem from="1612961805502" duration="1689000" />
+      <workItem from="1612964546691" duration="1776000" />
+      <workItem from="1612966368923" duration="1817000" />
+      <workItem from="1612968273737" duration="1753000" />
+      <workItem from="1612970089323" duration="1790000" />
+      <workItem from="1612971974976" duration="1778000" />
+      <workItem from="1612973799337" duration="1632000" />
+      <workItem from="1612975912374" duration="1741000" />
+      <workItem from="1612977725668" duration="1777000" />
+      <workItem from="1612979540083" duration="687000" />
+      <workItem from="1613030198860" duration="4000" />
+      <workItem from="1613038127617" duration="1775000" />
+      <workItem from="1613039940504" duration="1800000" />
+      <workItem from="1613041785303" duration="1663000" />
+      <workItem from="1613043602647" duration="1786000" />
+      <workItem from="1613045436620" duration="1784000" />
+      <workItem from="1613047272942" duration="1784000" />
+      <workItem from="1613049098111" duration="1780000" />
+      <workItem from="1613050921176" duration="1776000" />
+      <workItem from="1613053026091" duration="800000" />
+      <workItem from="1613074188310" duration="1799000" />
+      <workItem from="1613076036798" duration="1779000" />
+      <workItem from="1613077887903" duration="1777000" />
+      <workItem from="1613079710142" duration="1742000" />
+      <workItem from="1613081537484" duration="1798000" />
+      <workItem from="1613083369945" duration="1781000" />
+      <workItem from="1613085187270" duration="1780000" />
+      <workItem from="1613087050722" duration="1807000" />
+      <workItem from="1613088893537" duration="1779000" />
+      <workItem from="1613090714322" duration="1775000" />
+      <workItem from="1613092528640" duration="1772000" />
+      <workItem from="1613116666886" duration="951000" />
+      <workItem from="1613119387053" duration="1232000" />
+      <workItem from="1613121206388" duration="2024000" />
+      <workItem from="1613123413144" duration="1778000" />
+      <workItem from="1613125237092" duration="1780000" />
+      <workItem from="1613127053128" duration="1761000" />
+      <workItem from="1613128866896" duration="1780000" />
+      <workItem from="1613130691110" duration="1785000" />
+      <workItem from="1613132528486" duration="486000" />
     </task>
     <servers />
   </component>
@@ -101,22 +200,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="163" key="#PHP/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612569221654" />
-    <state x="668" y="329" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612574189906">
+    <state x="668" y="329" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612779827919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="329" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612574189906" />
+    <state x="668" y="329" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612779827919" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1612823209113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612823209113" />
     <state x="772" y="243" key="NewPhpClassDialog" timestamp="1612569977477">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="772" y="243" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612569977477" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1612711283311">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1613052222207">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612711283311" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613052222207" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1612569050664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612569050664" />
+    <state x="84" y="105" width="1597" height="718" key="dock-window-1" timestamp="1612880242848">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="84" y="105" width="1597" height="718" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612880242848" />
     <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1612640056226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
