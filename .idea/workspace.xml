@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18ed9d98-7d3f-4c1c-b13b-466c158fc486" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/realisations/realisations.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/realisations/realisations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -51,6 +52,9 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Projects\site_presentation\public" />
       <recent name="C:\Projects\site_presentation\config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\site_presentation\public\assets" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -190,7 +194,11 @@
       <workItem from="1613174207637" duration="2241000" />
       <workItem from="1613176596214" duration="1780000" />
       <workItem from="1613178521071" duration="3140000" />
-      <workItem from="1613182103745" duration="36000" />
+      <workItem from="1613182103745" duration="860000" />
+      <workItem from="1613207412773" duration="1038000" />
+      <workItem from="1613223257401" duration="448000" />
+      <workItem from="1613228892611" duration="807000" />
+      <workItem from="1613255144567" duration="1026000" />
     </task>
     <servers />
   </component>
@@ -214,10 +222,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="772" y="243" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612569977477" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1613052222207">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1613255285866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613052222207" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613255285866" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1612569050664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

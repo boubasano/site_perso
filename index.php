@@ -17,38 +17,38 @@
     <header>
         <?php
         // show header page
-        include './../templates/header/header.php';
+        include __DIR__.'./templates/header/header.php';
         ?>
     </header>
     <section id="presentation">
         <?php
-        include './../templates/presentation/presentation.php';
+        include __DIR__. './templates/presentation/presentation.php';
         ?>
     </section>
     <section id="cv">
         <?php
-        include './../templates/cv/cv.php';
+        include __DIR__. './templates/cv/cv.php';
         ?>
     </section>
     <section id="diplomes">
         <?php
-        include './../templates/diplomes/diplomes.php';
+        include __DIR__. './templates/diplomes/diplomes.php';
         ?>
     </section>
     <section id="realisations">
         <?php
-        include './../templates/realisations/realisations.php';
+        include __DIR__. './templates/realisations/realisations.php';
         ?>
     </section>
     <section id="contact">
     <?php
-    include './../templates/contact/contact.php';
+    include __DIR__. './templates/contact/contact.php';
     ?>
     </section>
     <footer class="footer">
         <?php
         //show footer page
-        include './../templates/footer/footer.php';
+        include __DIR__. './templates/footer/footer.php';
         ?>
     </footer>
 </main>
