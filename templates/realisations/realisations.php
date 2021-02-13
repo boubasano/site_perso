@@ -4,7 +4,17 @@
     <hr>
     <div class="block-text-realisations">
         <div class="text-realisations">
-           
+           <div class="text-realisations-pc">
+               <b>Langages utilisées:</b> HTML5, CSS3, PHP, SYMFONY5, IONIC/ ANGULAR, JAVASCRIPT <br>
+               <b>Guide en cas de problèmes lors du clonage du projet.</b><br>
+               <a href="assets/images/installation_symfony.pdf" target="_blank">Cloner projet Symfony et PHP</a>
+           </div>
+            <div class="text-realisations-mobile">
+                <b>Langages utilisées:</b> HTML5, SCSS IONIC/ ANGULAR, JAVASCRIPT <br>
+                Içi il s'agit d'une application de liste de tâches
+                On peut ajouter, voir et supprimer des tâches. Projet en cours de production. <br>
+                https://boubasano.github.io/angular-ionic-appMobile/www/
+            </div>
         </div>
 
     </div>
