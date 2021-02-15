@@ -1,4 +1,4 @@
-<div class="container cv-section">
+<div class="container cv-section block-section">
     <h1 class="titre-section titre-cv">CV</h1>
     <hr>
     <br>

@@ -9,6 +9,7 @@
           integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/queries.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>appli presentation</title>
 </head>
@@ -17,38 +18,38 @@
     <header>
         <?php
         // show header page
-        include __DIR__.'./header/header.php';
+        include 'header/header.php';
         ?>
     </header>
     <section id="presentation">
         <?php
-        include __DIR__. './presentation/presentation.php';
+        include  'presentation/presentation.php';
         ?>
     </section>
     <section id="cv">
         <?php
-        include __DIR__. './cv/cv.php';
+        include  'cv/cv.php';
         ?>
     </section>
     <section id="diplomes">
         <?php
-        include __DIR__. './diplomes/diplomes.php';
+        include  'diplomes/diplomes.php';
         ?>
     </section>
     <section id="realisations">
         <?php
-        include __DIR__. './realisations/realisations.php';
+        include  'realisations/realisations.php';
         ?>
     </section>
     <section id="contact">
     <?php
-    include __DIR__. './contact/contact.php';
+    include 'contact/contact.php';
     ?>
     </section>
     <footer class="footer">
         <?php
         //show footer page
-        include __DIR__. './footer/footer.php';
+        include 'footer/footer.php';
         ?>
     </footer>
 </main>

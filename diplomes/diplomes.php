@@ -1,4 +1,4 @@
-<div class="container diplomes-section">
+<div class="container diplomes-section block-section">
 
     <h1 class="titre-section titre-diplomes">Diplômes</h1>
     <hr>

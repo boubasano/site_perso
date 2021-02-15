@@ -106,7 +106,6 @@ p{
 
 .titre-presentation{
     z-index: 1;
-    padding-bottom: 1em;
 }
 
 #presentation{
@@ -118,13 +117,13 @@ p{
 
 .presentation-section{
     margin:auto;
-    padding-top: 4em;
+    padding-top: 6.5em;
 }
 
 .presentation-block {
     display: flex;
     justify-content: flex-start;
-    margin-top: 3em;
+    margin-top: 3.5em;
 }
 .cercle{
     background-image:  url("../images/image_profil.png");
@@ -156,7 +155,7 @@ p{
 }
 
 .cv-section{
-    padding-top: 7em;
+    padding-top: 6.5em;
 }
 
 .text-cv {
@@ -164,7 +163,6 @@ p{
 }
 
 .titre-cv{
-    padding-bottom: 2em;
 }
 
 
@@ -179,11 +177,11 @@ p{
 
 .diplomes-section{
     margin: auto;
-    padding-top: 7em;
+    padding-top: 6.5em;
 }
 
 .titre-diplomes{
-    padding-bottom: 1em;
+    /*padding-bottom: 1em;*/
 }
 
 /*---------carousel image--*/
@@ -216,8 +214,13 @@ p{
     background: lightgrey;
 }
 
-.realisations-text{
-    padding-top: 15px;
+.logo-angular-symfony-ionic{
+    display: flex;
+    justify-content: center;
+}
+
+.block-realisations{
+    padding-top: 3.5em;
 }
 
 /*------ partie cards --*/
@@ -227,16 +230,14 @@ p{
 }
 
 .realisations-section{
-    padding-top: 7em;
+    padding-top: 6.5em;
     z-index: 1;
 }
 
 .titre-realisation{
-    padding-bottom: 1em;
 }
 
 .logo {
-    border: 1px solid #ccc;
 }
 
 div.gallery {
@@ -247,9 +248,48 @@ div.gallery:hover {
     border: 1px solid #777;
 }
 
-div.gallery img {
+div.gallery{
     width: 100%;
+    background-size: cover;
     height: auto;
+}
+
+.logo{
+    border: 1px solid #ccc;
+    height: 4em;
+}
+
+.logo-php{
+    display: flex;
+    justify-content: center;
+}
+
+.php{
+    width: 7em;
+}
+
+.logo-angular-ionic{
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+
+.ionic{
+    width: 8em;
+    height: 3.6em;
+}
+.angular{
+    width: 4em;
+}
+
+.logo-symfony{
+    display: flex;
+    justify-content: center;
+}
+
+.symfony{
+    width: 12em;
 }
 
 div.desc {
@@ -290,14 +330,19 @@ div.desc {
 #contact{
     width: 100vw;
     height: 100vh;
-    background-color: lightcoral;
+    background-color: rgba(240, 230, 140, 0.2);
     background-size: cover;
     display: flex;
     justify-content: center;
 }
 
+.cadre-text{
+    background-color: rgba(240, 230, 140, 0.2);
+    border: 10px solid rgba(240, 230, 140, 0.2);
+}
+
 .contact-section{
-    padding-top: 8em;
+    padding-top: 6.5em;
 }
 
 .contact-item{
@@ -310,16 +355,17 @@ div.desc {
 .social-button{
     display: flex;
     flex-direction: row;
-    padding-top: 15em;
+    padding-top: 2.5em;
+    margin: auto;
 }
 
 h3.card-title{
-    font-size: 2em;
+    font-size: 1.6em;
     font-weight: bold;
 }
 
 p.card-text{
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 card{
@@ -335,57 +381,53 @@ footer{
 /*------------------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------- MEDIAS QUERIES--------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------------------*/
-@media screen
-and (max-width: 211px){
-    .card-body{
-        font-size: 0.5em;
-    }
-}
 
-@media screen
-/*and (min-width: 214px)*/
-and (max-width: 245px){
-    .card-body{
-        font-size: 0.8em;
+@media only screen
+/*and (min-device-width: 320px)*/
+and (max-device-width: 480px) {
+    .titre-section {
+        display: flex;
+        justify-content: center;
+        font-size: 2em;
+        font-weight: bold;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+        padding-bottom: 1em;
+        padding-top: 1em;
     }
-}
-
-@media  screen
-and (max-width: 293px){
-    .presentation-section{
-        padding-top: 0;
+    .block-section{
+        padding-bottom: 1em;
+        padding-top: 1em;
     }
-
+    .texte-defilant{
+        font-size: 1.5em;
+        color: black;
+    }
+    .presentation-section, div.contact-section, div.cv-section{
+        padding-top: 0.1em;
+    }
+    .presentation-block {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin-top: 0;
+    }
+    .carousel-image{
+        width: 100%;
+        height: 300px;
+    }
     .card-realisations{
         display: none;
     }
-
-    h3.card-title{
-        font-size: 2em;
-        font-weight: bold;
-    }
-
-    p.card-text{
-        font-size: 1.2em;
-    }
-
-    .contact-section{
-        padding-top: 0;
-    }
-
-    .contact-item{
-        padding-top: 1em;
-    }
-
-    .social-button{
-        /*display: none;*/
-    }
-}
-
-@media  screen
-and (max-width: 321px){
     .responsive {
         width: 100%;
+    }
+    .contact-item{
+        /*padding-top: 1em;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .cercle{
         background-image:  url("../images/image_site97x211.png");
@@ -394,270 +436,103 @@ and (max-width: 321px){
         align-items: flex-end;
         width: 130px;
         height: 130px;
-        float: left;
+        /*float: left;*/
         border: 1px solid #e3e3e3;
         border-radius: 100%;
         margin: auto;
     }
-
-    #inlineFrameExample{
-        width: 100%;
-        height: 300px;
-    }
-
-    .cercle:hover{
+    .cercle:hover, img.carousel-image:hover{
         transform: scale(2);
     }
 
-    .presentation-block {
-        width: 100%;
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .titre-section {
-        display: flex;
-        justify-content: center;
-        font-size: 2em;
-        font-weight: bold;
-    }
-
-    .presentation-section{
-        /*padding-top: 1em;*/
-    }
-
-    .cv-section{
-        padding-top: 1em;
-    }
-
-    .titre-cv{
-        /*padding-bottom: 1em;*/
-    }
-
-    .carousel-image{
-        width: 100%;
-        height: 300px;
-    }
-
-    .carousel-image:hover{
-        transform: scale(2);
-    }
-
-    #inlineFrameExample:hover{
-        transform: scale(2);
-    }
-
-    .titre-presentation{
-        z-index: 1;
-        padding-bottom: 0;
-    }
-
-    .card-realisations{
-        display: none;
-    }
 }
 
-@media screen
-and (max-width: 453px) {
-    .responsive {
-        width: 100%;
-    }
+/*@media screen*/
+/*and (min-width: 454px)*/
+/*and (max-width: 870px) {*/
+/*    .responsive {*/
+/*        width: 100%;*/
+/*    }*/
+/*    .cercle{*/
+/*        background-image:  url("../images/image_site130x280.png");*/
+/*        background-repeat: no-repeat;*/
+/*        background-position: center;*/
+/*        align-items: flex-end;*/
+/*        width: 250px;*/
+/*        height: 250px;*/
+/*        float: left;*/
+/*        border: 1px solid #e3e3e3;*/
+/*        border-radius: 100%;*/
+/*        margin: auto;*/
+/*    }*/
 
-    .social-button{
-        padding-top: 5em;
-    }
+/*    .presentation-block {*/
+/*        width: 100%;*/
+/*        display: flex;*/
+/*        flex-direction: column-reverse;*/
+/*    }*/
 
-    .titre-presentation{
-        z-index: 1;
-        padding-bottom: 0;
-    }
+/*    p{*/
+/*        !*font-size: 1em;*!*/
 
-    .presentation-section{
-        padding-top: 1em;
-    }
+/*    }*/
 
-    .diplomes-section{
-        margin: auto;
-        padding-top: 2em;
-    }
+/*    .presentation-section {*/
+/*        !*padding-top: 1.2em;*!*/
+/*    }*/
 
-    .titre-diplomes{
-        padding-bottom: 1em;
-    }
+/*    .titre-section {*/
+/*        font-size: 2em;*/
+/*        font-weight: bold;*/
+/*        padding-bottom: 1em;*/
+/*    }*/
 
-    .cv-section{
-        padding-top: 2em;
-    }
+/*    .cv-section{*/
+/*        !*padding-top: 1.2em;*!*/
+/*    }*/
 
-    #inlineFrameExample{
-        width: 100%;
-        height: 400px;
-    }
+/*    .titre-cv{*/
+/*        !*padding-bottom: 1em;*!*/
+/*    }*/
 
-    #inlineFrameExample:hover{
-        transform: scale(2);
-    }
+/*    .diplomes-section{*/
+/*        margin: auto;*/
+/*        !*padding-top: 1.4em;*!*/
+/*    }*/
 
-    .presentation-text{
-        height:460px;
-        overflow: hidden;
-        padding-top: 0;
-    }
+/*    .contact-section{*/
+/*        !*padding-top: 1.4em;*!*/
+/*    }*/
 
-    .realisations-section{
-        padding-top: 2em;
-    }
+/*    .social-button{*/
+/*        !*padding-top: 5em;*!*/
+/*    }*/
 
-    .titre-realisation{
-        padding-bottom: 0;
-    }
+/*    .carousel-image{*/
+/*        width: 100%;*/
+/*        height: 400px;*/
+/*    }*/
 
-    .contact-section{
-        padding-top: 2em;
-    }
+/*    .realisations-section{*/
+/*        padding-top: 1.4em;*/
+/*    }*/
 
-    .titre-section{
-        font-size: 2em;
-    }
-    p{
-        font-size: 1em;
-    }
+/*    .carousel-image:hover{*/
+/*        transform: scale(1.5);*/
+/*    }*/
 
-    .texte-defilant{
-        font-size: 1.5em;
-        color: black;
-    }
+/*    #inlineFrameExample:hover{*/
+/*        transform: scale(1.5);*/
+/*    }*/
 
-    .cercle{
-        background-image:  url("../images/image_site130x280.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        align-items: flex-end;
-        width: 130px;
-        height: 130px;
-        float: left;
-        border: 1px solid #e3e3e3;
-        border-radius: 100%;
-        margin: auto;
-    }
+/*    .cercle:hover{*/
+/*        transform: scale(1.5);*/
+/*    }*/
 
-    .cercle:hover{
-        transform: scale(2);
-    }
-
-    .presentation-block {
-        width: 100%;
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: space-between;
-    }
-
-    .titre-cv{
-        padding-bottom: 1em;
-    }
-
-    .carousel-image{
-        width: 100%;
-        height: 300px;
-    }
-
-    .carousel-image:hover{
-        transform: scale(2);
-    }
-
-    .card-realisations{
-        display: none;
-    }
-
- }
-
-@media screen
-and (min-width: 454px)
-and (max-width: 870px) {
-    .responsive {
-        width: 100%;
-    }
-    .cercle{
-        background-image:  url("../images/image_site130x280.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        align-items: flex-end;
-        width: 250px;
-        height: 250px;
-        float: left;
-        border: 1px solid #e3e3e3;
-        border-radius: 100%;
-        margin: auto;
-    }
-
-    .presentation-block {
-        width: 100%;
-        display: flex;
-        flex-direction: column-reverse;
-        margin-top: 0;
-    }
-
-    p{
-        font-size: 1em;
-
-    }
-
-    .presentation-section {
-        padding-top: 1.2em;
-    }
-
-    .titre-section {
-        font-size: 2em;
-        font-weight: bold;
-        padding-bottom: 1em;
-    }
-
-    .cv-section{
-        padding-top: 1.2em;
-    }
-
-    .titre-cv{
-        padding-bottom: 1em;
-    }
-
-    .diplomes-section{
-        margin: auto;
-        padding-top: 1.4em;
-    }
-
-    .contact-section{
-        padding-top: 1.4em;
-    }
-
-    .social-button{
-        padding-top: 5em;
-    }
-
-    .carousel-image{
-        width: 100%;
-        height: 400px;
-    }
-
-    .realisations-section{
-        padding-top: 1.4em;
-    }
-
-    .carousel-image:hover{
-        transform: scale(1.5);
-    }
-
-    #inlineFrameExample:hover{
-        transform: scale(1.5);
-    }
-
-    .cercle:hover{
-        transform: scale(1.5);
-    }
-
-    .card-realisations{
-        display: none;
-    }
-}
+/*    .card-realisations{*/
+/*        display: none;*/
+/*    }*/
+/*}*/
 
 @media screen
 and(min-width: 722px)
@@ -777,6 +652,13 @@ and (max-width: 600px) {
     .card-realisations{
         display: none;
     }
+
+}
+
+@media screen
+and(min-width:996px)
+and(max-width: 1238px){
+
 
 }
 

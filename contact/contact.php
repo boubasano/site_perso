@@ -1,17 +1,17 @@
-<div class="container contact-section">
+<div class="container contact-section block-section">
     <h1 class="titre-section titre-contact">Contact</h1>
     <hr>
 
     <div class="contact-item">
 
-        <div class="card text-center">
+        <div class="card text-center cadre-text">
             <div class="card-body">
-                <h3 class="card-title">Concepteur Développeur Web et Applications</h3>
-                <h3>Aboubacar SANO</h3>
+                <h4>Aboubacar SANO</h4>
                 <p class="card-text">
-                    <b>Email: </b>boubasano@yahoo.fr <br>
-                    <b>Téléphone:</b>07 78 82 31 08 <br>
-                    <b>Lien linkedin:</b>www.linkedin.com/in/aboubacar-sano-ab66a21b4</p>
+                   <b>boubasano@yahoo.fr </b><br>
+                    <b>07 78 82 31 08</b><br>
+                    <a href="https://www.linkedin.com/in/aboubacar-sano-ab66a21b4"><b>linkedin:</b></a>
+                    </p>
             </div>
         </div>
 
