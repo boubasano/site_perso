@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18ed9d98-7d3f-4c1c-b13b-466c158fc486" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/queries.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/AngularJS_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/AngularJS_logo_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/angular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/angular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/logo-symfony.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/symfony_black_mini.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/symfony_black_mini.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv/cv.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv/cv.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diplomes/diplomes.php" beforeDir="false" afterPath="$PROJECT_DIR$/diplomes/diplomes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/queries.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/presentation.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/presentation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/realisations/realisations.php" beforeDir="false" afterPath="$PROJECT_DIR$/realisations/realisations.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +216,8 @@
       <workItem from="1613384217739" duration="1770000" />
       <workItem from="1613386037014" duration="1775000" />
       <workItem from="1613387863233" duration="1775000" />
-      <workItem from="1613389675533" duration="1106000" />
+      <workItem from="1613389675533" duration="1363000" />
+      <workItem from="1613392690210" duration="86000" />
     </task>
     <servers />
   </component>
@@ -240,10 +229,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="163" key="#PHP/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612569221654" />
-    <state x="668" y="329" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612779827919">
+    <state x="668" y="329" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613391042212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="329" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612779827919" />
+    <state x="668" y="329" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613391042212" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1612823209113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -18,38 +18,38 @@
     <header>
         <?php
         // show header page
-        include 'header/header.php';
+        require 'header/header.php';
         ?>
     </header>
     <section id="presentation">
         <?php
-        include  'presentation/presentation.php';
+        require  'presentation/presentation.php';
         ?>
     </section>
     <section id="cv">
         <?php
-        include  'cv/cv.php';
+        require 'cv/cv.php';
         ?>
     </section>
     <section id="diplomes">
         <?php
-        include  'diplomes/diplomes.php';
+        require  'diplomes/diplomes.php';
         ?>
     </section>
     <section id="realisations">
         <?php
-        include  'realisations/realisations.php';
+        require  'realisations/realisations.php';
         ?>
     </section>
     <section id="contact">
     <?php
-    include 'contact/contact.php';
+    require 'contact/contact.php';
     ?>
     </section>
     <footer class="footer">
         <?php
         //show footer page
-        include 'footer/footer.php';
+        require 'footer/footer.php';
         ?>
     </footer>
 </main>
