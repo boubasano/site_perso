@@ -467,7 +467,7 @@ and (max-width: 319px) {
 
 @media only screen
 and (min-width: 320px)
-and (max-device-width: 480px) {
+and (max-width: 480px) {
     .titre-section {
         display: flex;
         justify-content: center;
@@ -640,8 +640,8 @@ and (max-width: 767px) {
 /*--------------------TABLETTE  Landscape-------------------------*/
 
 @media only screen
-and (min-device-width: 768px)
-and (max-device-width: 991px)
+and (min-width: 768px)
+and (max-width: 991px)
 and (orientation: landscape) {
     .titre-section {
         display: flex;
@@ -726,8 +726,8 @@ and (orientation: landscape) {
 
 /*-------------------TABLETTE   Portrait----------------*/
 @media only screen
-and (min-device-width: 768px)
-and (max-device-width: 991px)
+and (min-width: 768px)
+and (max-width: 991px)
 and (orientation: portrait) {
     .titre-section {
         display: flex;
@@ -811,7 +811,7 @@ and (orientation: portrait) {
 
 @media only screen
 and (min-width: 992px)
-and (max-device-width: 1024px)
+and (max-width: 1024px)
 and (orientation: landscape) {
     .titre-section {
         display: flex;
@@ -911,7 +911,7 @@ and (orientation: landscape) {
 
 @media only screen
 and (min-width: 992px)
-and (max-device-width: 1024px)
+and (max-width: 1024px)
 and (orientation: portrait) {
     .titre-section {
         display: flex;
