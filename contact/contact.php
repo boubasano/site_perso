@@ -16,6 +16,7 @@
         </div>
 
         <div class="social-button">
+            <div class="sharethis-inline-share-buttons"></div>
 <!--            <div>-->
 <!--               Facebook -->
 <!--                <a target="_blank" title="Facebook"-->
@@ -55,7 +56,6 @@
 <!--                   rel="nofollow"><img src="iconrs/email_icon.png" alt="email"/></a>-->
 <!--                 //Email --->
 <!--            </div>-->
-            <div class="sharethis-inline-share-buttons"></div>
         </div>
     </div>
 

@@ -16,7 +16,7 @@ body {
 
 /*-----------------------------------------------------------------------------------*/
 /*-------------------------------- partie header ------------------------------------*/
-header{
+header {
     width: 100vw;
     height: 100vh;
 }
@@ -31,14 +31,16 @@ li {
     font-size: 1.3em;
 }
 
-.contact-header{
+.contact-header {
     font-size: 1.2em;
 }
-.navbar{
+
+.navbar {
     width: 100vw;
     height: 8%;
 }
-.img-header{
+
+.img-header {
     width: 100vw;
     height: 100vh;
     background-image: url("../images/20200717_144022.jpg");
@@ -48,15 +50,15 @@ li {
     z-index: 1;
 }
 
-.texte-defilant{
-    max-width: 60em;                      /* largeur de la fenêtre */
+.texte-defilant {
+    max-width: 60em; /* largeur de la fenêtre */
     max-height: 40em;
-    margin:auto;
+    margin: auto;
     border: 10px solid #F0F0FF;
-    overflow: hidden;                     /* masque tout ce qui dépasse */
-    box-shadow: 0 .25em .5em #CCC,inset 0 0 1em .25em #CCC;
+    overflow: hidden; /* masque tout ce qui dépasse */
+    box-shadow: 0 .25em .5em #CCC, inset 0 0 1em .25em #CCC;
     background: lightyellow;
-   opacity: 1;
+    opacity: 1;
     z-index: 2;
     font-size: 2em;
     color: black;
@@ -65,20 +67,20 @@ li {
 /*----- animation de défilement --------*/
 
 .texte-defilant > :first-child {
-    display: inline-block;                /* modèle de boîte en ligne */
-    padding-right: 2em;                   /* un peu d'espace pour la transition */
-    padding-left: 100%;                   /* placement à droite du conteneur */
-    white-space: nowrap;                  /* pas de passage à la ligne */
+    display: inline-block; /* modèle de boîte en ligne */
+    padding-right: 2em; /* un peu d'espace pour la transition */
+    padding-left: 100%; /* placement à droite du conteneur */
+    white-space: nowrap; /* pas de passage à la ligne */
     animation: defilement-rtl 15s infinite linear;
 }
 
 
 @keyframes defilement-rtl {
     0% {
-        transform: translate3d(0,0,0);      /* position initiale à droite */
+        transform: translate3d(0, 0, 0); /* position initiale à droite */
     }
     100% {
-        transform: translate3d(-100%,0,0);  /* position finale à gauche */
+        transform: translate3d(-100%, 0, 0); /* position finale à gauche */
     }
 }
 
@@ -94,29 +96,28 @@ li {
     font-weight: bold;
 }
 
-p{
+p {
     font-size: 1.2em;
 
 }
 
 
-
 /*-----------------------------------------------------------------*/
 /*-----------------------------------------------------------------*/
 
-.titre-presentation{
+.titre-presentation {
     z-index: 1;
 }
 
-#presentation{
+#presentation {
     width: 100vw;
     height: 100vh;
     background-color: rgba(240, 230, 140, 0.2);
     background-size: cover;
 }
 
-.presentation-section{
-    margin:auto;
+.presentation-section {
+    margin: auto;
     padding-top: 6.5em;
 }
 
@@ -125,8 +126,9 @@ p{
     justify-content: flex-start;
     margin-top: 3.5em;
 }
-.cercle{
-    background-image:  url("../images/image_profil.png");
+
+.cercle {
+    background-image: url("../images/image_profil.png");
     background-repeat: no-repeat;
     background-position: center;
     align-items: flex-end;
@@ -138,14 +140,14 @@ p{
     margin: auto;
 }
 
-.presentation-text{
+.presentation-text {
     margin-top: 2em;
 }
 
 /*----------------------------------------------------------------------------*/
 /*------------------------------- partie cv ----------------------*/
 
-#cv{
+#cv {
     width: 100vw;
     height: 100vh;
     background: lightgrey;
@@ -154,7 +156,7 @@ p{
 
 }
 
-.cv-section{
+.cv-section {
     padding-top: 6.5em;
 }
 
@@ -162,31 +164,31 @@ p{
     background: floralwhite;
 }
 
-.titre-cv{
+.titre-cv {
 }
 
 
 /*----------------------------------------------------------------------------*/
 /*------------------------------- partie diplomes ----------------------*/
 
-#diplomes{
+#diplomes {
     width: 100vw;
     height: 100vh;
     background: rgba(128, 128, 128, 0.1);
 }
 
-.diplomes-section{
+.diplomes-section {
     margin: auto;
     padding-top: 6.5em;
 }
 
-.titre-diplomes{
+.titre-diplomes {
     /*padding-bottom: 1em;*/
 }
 
 /*---------carousel image--*/
 
-.carousel-image{
+.carousel-image {
     width: 100%;
     height: 600px;
 }
@@ -208,36 +210,30 @@ p{
 /*-------------------------------------------------------------------------*/
 /*------------------------------- realisations ----------------------------*/
 
-#realisations{
+#realisations {
     width: 100vw;
     height: 100vh;
     background: lightgrey;
 }
 
-.logo-angular-symfony-ionic{
+.logo-angular-symfony-ionic {
     display: flex;
     justify-content: center;
 }
 
-.block-realisations{
+.block-realisations {
     padding-top: 3.5em;
 }
 
 /*------ partie cards --*/
 
-.card-realisations{
+.card-realisations {
     margin-top: 50px;
 }
 
-.realisations-section{
+.realisations-section {
     padding-top: 6.5em;
     z-index: 1;
-}
-
-.titre-realisation{
-}
-
-.logo {
 }
 
 div.gallery {
@@ -248,47 +244,48 @@ div.gallery:hover {
     border: 1px solid #777;
 }
 
-div.gallery{
+div.gallery {
     width: 100%;
     background-size: cover;
     height: auto;
 }
 
-.logo{
+.logo {
     border: 1px solid #ccc;
     height: 4em;
 }
 
-.logo-php{
+.logo-php {
     display: flex;
     justify-content: center;
 }
 
-.php{
+.php {
     width: 7em;
 }
 
-.logo-angular-ionic{
-   display: flex;
+.logo-angular-ionic {
+    display: flex;
     flex-direction: row;
     justify-content: center;
     margin: auto;
 }
 
-.ionic{
+.ionic {
     width: 8em;
     height: 3.6em;
 }
-.angular{
+
+.angular {
     width: 4em;
 }
 
-.logo-symfony{
+.logo-symfony {
     display: flex;
     justify-content: center;
 }
 
-.symfony{
+.symfony {
     width: 12em;
 }
 
@@ -327,7 +324,7 @@ div.desc {
 /*    justify-content: center;*/
 /*}*/
 
-#contact{
+#contact {
     width: 100vw;
     height: 100vh;
     background-color: rgba(240, 230, 140, 0.2);
@@ -336,76 +333,79 @@ div.desc {
     justify-content: center;
 }
 
-.cadre-text{
+.cadre-text {
     background-color: rgba(240, 230, 140, 0.2);
     border: 10px solid rgba(240, 230, 140, 0.2);
 }
 
-.contact-section{
+.contact-section {
     padding-top: 6.5em;
 }
 
-.contact-item{
+.contact-item {
     display: flex;
     justify-content: center;
     padding-top: 5em;
     flex-direction: column;
 }
 
-.social-button{
+.social-button {
     display: flex;
     flex-direction: row;
     padding-top: 2.5em;
     margin: auto;
 }
 
-h3.card-title{
+h3.card-title {
     font-size: 1.6em;
     font-weight: bold;
 }
 
-p.card-text{
+p.card-text {
     font-size: 1.1em;
 }
 
-card{
+card {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
 }
 
 /*--------------------------------------------------------------------------*/
 /*----------------------------------- partie footer  -----------------------*/
-footer{
+footer {
     width: 100vw;
     height: 5%;
 }
+
 /*------------------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------- MEDIAS QUERIES--------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------------------*/
 
+/*--------------------MOBILE -------------------------*/
 @media only screen
-/*and (min-device-width: 320px)*/
-and (max-device-width: 480px) {
+and (max-width: 319px) {
     .titre-section {
         display: flex;
         justify-content: center;
         font-size: 2em;
         font-weight: bold;
         margin-top: 1em;
-        margin-bottom: 0.5em;
+        padding-top: 0.5em;
+    }
+
+    .block-section {
         padding-bottom: 1em;
         padding-top: 1em;
     }
-    .block-section{
-        padding-bottom: 1em;
-        padding-top: 1em;
-    }
-    .texte-defilant{
+
+    .texte-defilant {
         font-size: 1.5em;
         color: black;
     }
-    .presentation-section, div.contact-section, div.cv-section{
+
+    .presentation-section, div.contact-section, div.cv-section {
         padding-top: 0.1em;
     }
+
     .presentation-block {
         width: 100%;
         display: flex;
@@ -413,263 +413,780 @@ and (max-device-width: 480px) {
         justify-content: space-between;
         margin-top: 0;
     }
-    .carousel-image{
+
+    .carousel-image {
         width: 100%;
-        height: 300px;
+        height: 235px;
     }
-    .card-realisations{
+
+    .carousel-inner {
+        width: 90%;
+        justify-content: center;
+        padding-left: 2em;
+    }
+
+    .card-realisations, div.text-realisations-pc, div.card-realisations-tablette, div.presentation-block-tablette {
         display: none;
     }
+
     .responsive {
         width: 100%;
     }
-    .contact-item{
-        /*padding-top: 1em;*/
+
+    .contact-item {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    .cercle{
-        background-image:  url("../images/image_site97x211.png");
+
+    .contact-item, div.block-realisations, div.presentation-block {
+        padding-top: 1.5em;
+    }
+
+    .cercle {
+        background-image: url("../images/image_site97x211.png");
         background-repeat: no-repeat;
         background-position: center;
         align-items: flex-end;
         width: 130px;
         height: 130px;
-        /*float: left;*/
         border: 1px solid #e3e3e3;
         border-radius: 100%;
         margin: auto;
     }
-    .cercle:hover, img.carousel-image:hover{
+
+    .cercle:hover, img.carousel-image:hover {
         transform: scale(2);
     }
 
-}
-
-/*@media screen*/
-/*and (min-width: 454px)*/
-/*and (max-width: 870px) {*/
-/*    .responsive {*/
-/*        width: 100%;*/
-/*    }*/
-/*    .cercle{*/
-/*        background-image:  url("../images/image_site130x280.png");*/
-/*        background-repeat: no-repeat;*/
-/*        background-position: center;*/
-/*        align-items: flex-end;*/
-/*        width: 250px;*/
-/*        height: 250px;*/
-/*        float: left;*/
-/*        border: 1px solid #e3e3e3;*/
-/*        border-radius: 100%;*/
-/*        margin: auto;*/
-/*    }*/
-
-/*    .presentation-block {*/
-/*        width: 100%;*/
-/*        display: flex;*/
-/*        flex-direction: column-reverse;*/
-/*    }*/
-
-/*    p{*/
-/*        !*font-size: 1em;*!*/
-
-/*    }*/
-
-/*    .presentation-section {*/
-/*        !*padding-top: 1.2em;*!*/
-/*    }*/
-
-/*    .titre-section {*/
-/*        font-size: 2em;*/
-/*        font-weight: bold;*/
-/*        padding-bottom: 1em;*/
-/*    }*/
-
-/*    .cv-section{*/
-/*        !*padding-top: 1.2em;*!*/
-/*    }*/
-
-/*    .titre-cv{*/
-/*        !*padding-bottom: 1em;*!*/
-/*    }*/
-
-/*    .diplomes-section{*/
-/*        margin: auto;*/
-/*        !*padding-top: 1.4em;*!*/
-/*    }*/
-
-/*    .contact-section{*/
-/*        !*padding-top: 1.4em;*!*/
-/*    }*/
-
-/*    .social-button{*/
-/*        !*padding-top: 5em;*!*/
-/*    }*/
-
-/*    .carousel-image{*/
-/*        width: 100%;*/
-/*        height: 400px;*/
-/*    }*/
-
-/*    .realisations-section{*/
-/*        padding-top: 1.4em;*/
-/*    }*/
-
-/*    .carousel-image:hover{*/
-/*        transform: scale(1.5);*/
-/*    }*/
-
-/*    #inlineFrameExample:hover{*/
-/*        transform: scale(1.5);*/
-/*    }*/
-
-/*    .cercle:hover{*/
-/*        transform: scale(1.5);*/
-/*    }*/
-
-/*    .card-realisations{*/
-/*        display: none;*/
-/*    }*/
-/*}*/
-
-@media screen
-and(min-width: 722px)
-and(max-width: 996px){
-    .text-realisations-mobile{
-        display: none;
-    }
-}
-
-@media screen
-and(min-width: 997px)
-and(max-width: 1056px){
-  .social-button{
-      padding-bottom: 0;
-  }
-
-}
-
-@media screen
-and(max-width: 721px)
-{
-   .text-realisations-pc{
-       display: none;
-   }
-}
-@media  screen
-and (min-width: 871px)
-and (max-width: 996px){
-    .diplomes-section{
-        margin: auto;
-        padding-top: 3em;
-    }
-
-    .contact-section{
-        padding-top: 2em;
-    }
-
-    .contact-item{
-        padding-top: 2em;
-    }
-
-    .titre-section {
-        font-size: 1.9em;
-        font-weight: bold;
-        padding-bottom: 1em;
-    }
-
-    .social-button{
-        padding-top: 4em;
-    }
-
-    .titre-diplomes{
-        padding-bottom: 1em;
-    }
-
-    .cv-section{
-        padding-top: 2em;
-    }
-
-    .titre-cv{
-        padding-bottom: 1em;
-    }
-
-    .presentation-section{
-        padding-top: 2em;
-    }
-
-    .carousel-image{
+    #inlineFrameExample {
         width: 100%;
-        height: 570px;
+        height: 350px;
+    }
+}
+
+@media only screen
+and (min-width: 320px)
+and (max-device-width: 480px) {
+    .titre-section {
+        display: flex;
+        justify-content: center;
+        font-size: 2em;
+        font-weight: bold;
+        margin-top: 1em;
+        padding-top: 0.5em;
     }
 
-    .card-realisations{
-        display: none;
+    .block-section {
+        padding-bottom: 1em;
+        padding-top: 1em;
     }
 
-    .presentation-text{
+    .texte-defilant {
+        font-size: 1.5em;
+        color: black;
+    }
+
+    .presentation-section, div.contact-section, div.cv-section {
+        padding-top: 0.1em;
+    }
+
+    .presentation-block {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
         margin-top: 0;
     }
 
-    .realisations-section{
-        padding-top: 2em;
-    }
-
-    .titre-realisation{
-        padding-bottom: 1em;
-    }
-
-    .text-realisations{
-        margin-top: 2em;
-    }
-
-}
-
-@media screen
-and (min-width: 501px)
-and (max-width: 600px) {
-
-    .presentation-section{
-        margin:auto;
-        padding-top: 5em;
-    }
-
-    .titre-diplomes{
-        padding-bottom: 0;
-    }
-
-    .diplomes-section{
-        padding-top: 3em;
-    }
-
-    .carousel-image{
+    .carousel-image {
         width: 100%;
-        height: 400px;
+        height: 235px;
     }
 
-    .card-realisations{
+    .carousel-inner {
+        width: 90%;
+        justify-content: center;
+        padding-left: 2em;
+    }
+
+    .card-realisations, div.text-realisations-pc, div.card-realisations-tablette, div.presentation-block-tablette {
         display: none;
     }
 
+    .responsive {
+        width: 100%;
+    }
+
+    .contact-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact-item, div.block-realisations, div.presentation-block {
+        padding-top: 1.5em;
+    }
+
+    .cercle {
+        background-image: url("../images/image_site97x211.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        align-items: flex-end;
+        width: 130px;
+        height: 130px;
+        border: 1px solid #e3e3e3;
+        border-radius: 100%;
+        margin: auto;
+    }
+
+    .cercle:hover, img.carousel-image:hover {
+        transform: scale(2);
+    }
+
+    #inlineFrameExample {
+        width: 100%;
+        height: 350px;
+    }
 }
 
-@media screen
-and(min-width:996px)
-and(max-width: 1238px){
+/*--------------------NOTEPAD -------------------------*/
 
+@media only screen
+and (min-width: 481px)
+and (max-width: 767px) {
+    .titre-section {
+        display: flex;
+        justify-content: center;
+        font-size: 2em;
+        font-weight: bold;
+        margin-top: 1em;
+        padding-top: 0.5em;
+    }
+
+    .block-section {
+        padding-bottom: 1em;
+        padding-top: 1em;
+    }
+
+    .texte-defilant {
+        font-size: 1.5em;
+        color: black;
+    }
+
+    .presentation-section, div.contact-section, div.cv-section {
+        padding-top: 0.1em;
+    }
+
+    .presentation-block {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin-top: 0;
+    }
+
+    .carousel-image {
+        width: 100%;
+        height: 320px;
+    }
+
+    .carousel-inner {
+        width: 90%;
+        justify-content: center;
+        padding-left: 2em;
+    }
+
+    .card-realisations, div.text-realisations-pc, div.card-realisations-tablette, div.presentation-block-tablette {
+        display: none;
+    }
+
+    .responsive {
+        width: 100%;
+    }
+
+    .contact-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact-item, div.block-realisations, div.presentation-block {
+        padding-top: 1.5em;
+    }
+
+    .cercle {
+        background-image: url("../images/image_site97x211.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        align-items: flex-end;
+        width: 130px;
+        height: 130px;
+        border: 1px solid #e3e3e3;
+        border-radius: 100%;
+        margin: auto;
+    }
+
+    .cercle:hover, img.carousel-image:hover {
+        transform: scale(2);
+    }
+
+    #inlineFrameExample {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+/*--------------------TABLETTE  Landscape-------------------------*/
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 991px)
+and (orientation: landscape) {
+    .titre-section {
+        display: flex;
+        justify-content: center;
+        font-size: 2em;
+        font-weight: bold;
+        margin-top: 1em;
+        padding-top: 0.5em;
+    }
+
+    .block-section {
+        padding-bottom: 1em;
+        padding-top: 1em;
+    }
+
+    .texte-defilant {
+        font-size: 1.5em;
+        color: black;
+    }
+
+    .presentation-section, div.contact-section, div.cv-section {
+        padding-top: 0.1em;
+    }
+
+    .presentation-block, div.text-tablette {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin-top: 0;
+    }
+
+    .carousel-image {
+        width: 530px;
+        height: 440px;
+    }
+
+    .card-realisations, div.text-realisations-pc, div.presentation-block {
+        display: none;
+    }
+
+    .responsive {
+        width: 100%;
+    }
+
+    .contact-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact-item, div.block-realisations, div.presentation-block {
+        padding-top: 1.5em;
+    }
+
+    .cercle {
+        background-image: url("../images/image_site97x211.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        align-items: flex-end;
+        width: 150px;
+        height: 150px;
+        border: 1px solid #e3e3e3;
+        border-radius: 100%;
+        margin: auto;
+    }
+
+    .cercle:hover, img.carousel-image:hover {
+        transform: scale(2);
+    }
+
+    #inlineFrameExample {
+        width: 100%;
+        height: 450px;
+    }
+
+    .cadre-text {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+/*-------------------TABLETTE   Portrait----------------*/
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 991px)
+and (orientation: portrait) {
+    .titre-section {
+        display: flex;
+        justify-content: center;
+        font-size: 2em;
+        font-weight: bold;
+        margin-top: 1em;
+        padding-top: 0.5em;
+    }
+
+    .block-section {
+        padding-bottom: 1em;
+        padding-top: 1em;
+    }
+    .texte-defilant {
+        font-size: 1.5em;
+        color: black;
+    }
+
+    .presentation-section, div.contact-section, div.cv-section {
+        padding-top: 0.1em;
+    }
+
+    .presentation-block {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin-top: 0;
+    }
+
+    .carousel-image {
+        width: 530px;
+        height: 440px;
+    }
+
+    .card-realisations, div.text-realisations-pc, div.presentation-block-tablette {
+        display: none;
+    }
+
+    .responsive {
+        width: 100%;
+    }
+
+    .contact-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact-item, div.block-realisations, div.presentation-block {
+        padding-top: 1.5em;
+    }
+
+    .cercle {
+        background-image: url("../images/image_site97x211.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        align-items: flex-end;
+        width: 160px;
+        height: 160px;
+        border: 1px solid #e3e3e3;
+        border-radius: 100%;
+        margin: auto;
+    }
+
+    .cercle:hover, img.carousel-image:hover {
+        transform: scale(2);
+    }
+
+    #inlineFrameExample {
+        width: 100%;
+        height: 450px;
+    }
+
+    .cadre-text {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media only screen
+and (min-width: 992px)
+and (max-device-width: 1024px)
+and (orientation: landscape) {
+    .titre-section {
+        display: flex;
+        justify-content: center;
+        font-size: 2em;
+        font-weight: bold;
+        margin-top: 1em;
+        padding-top: 0.5em;
+    }
+
+    .block-section {
+        padding-bottom: 1em;
+        padding-top: 1em;
+    }
+
+    .texte-defilant {
+        font-size: 1.5em;
+        color: black;
+    }
+
+    .presentation-section, div.contact-section, div.cv-section {
+        padding-top: 0.1em;
+    }
+
+    .presentation-block-tablette {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin-top: 2em;
+    }
+
+    .carousel-image {
+        height: 530px;
+    }
+
+    .carousel-inner {
+        width: 90%;
+        justify-content: center;
+        padding-left: 7em;
+    }
+
+    .card-realisations, div.presentation-block {
+        display: none;
+    }
+
+    div.text-realisations-mobile, div.text-realisations-pc {
+        padding-left: 5em;
+    }
+
+    .card-realisations-tablette {
+        padding-left: 10em;
+    }
+
+    .responsive {
+        width: 100%;
+    }
+
+    .contact-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact-item, div.block-realisations, div.presentation-block {
+        padding-top: 1.5em;
+    }
+
+    .cercle {
+        background-image: url("../images/image_site130x280.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        align-items: flex-end;
+        width: 160px;
+        height: 160px;
+        border: 1px solid #e3e3e3;
+        border-radius: 100%;
+        margin: auto;
+    }
+
+    .cercle:hover, img.carousel-image:hover {
+        transform: scale(2);
+    }
+
+    #inlineFrameExample {
+        width: 100%;
+        height: 500px;
+    }
+
+    .cadre-text {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+/*!*--------------------IPAD  portrait-------------------------*!*/
+
+@media only screen
+and (min-width: 992px)
+and (max-device-width: 1024px)
+and (orientation: portrait) {
+    .titre-section {
+        display: flex;
+        justify-content: center;
+        font-size: 2em;
+        font-weight: bold;
+        margin-top: 1em;
+        padding-top: 0.5em;
+    }
+
+    .block-section {
+        padding-bottom: 1em;
+        padding-top: 1em;
+    }
+
+    .texte-defilant {
+        font-size: 1.5em;
+        color: black;
+    }
+
+    .presentation-section, div.contact-section, div.cv-section {
+        padding-top: 0.1em;
+    }
+
+    .presentation-block-tablette {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin-top: 2em;
+    }
+
+    .carousel-image {
+        height: 530px;
+    }
+
+    .carousel-inner {
+        width: 90%;
+        justify-content: center;
+        padding-left: 7em;
+    }
+
+    .card-realisations, div.presentation-block {
+        display: none;
+    }
+
+    div.text-realisations-mobile, div.text-realisations-pc {
+        padding-left: 5em;
+    }
+
+    .card-realisations-tablette {
+        padding-left: 10em;
+    }
+
+    .responsive {
+        width: 100%;
+    }
+
+    .contact-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact-item, div.block-realisations, div.presentation-block {
+        padding-top: 1.5em;
+    }
+
+    .cercle {
+        background-image: url("../images/image_site130x280.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        align-items: flex-end;
+        width: 160px;
+        height: 160px;
+        border: 1px solid #e3e3e3;
+        border-radius: 100%;
+        margin: auto;
+    }
+
+    .cercle:hover, img.carousel-image:hover {
+        transform: scale(2);
+    }
+
+    #inlineFrameExample {
+        width: 100%;
+        height: 500px;
+    }
+
+    .cadre-text {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+/*-------------Desktops and laptops ----------------------*/
+
+@media only screen
+and (min-width: 1025px)
+and (max-width: 1223px){
+    .titre-section {
+        display: flex;
+        justify-content: center;
+        font-size: 2em;
+        font-weight: bold;
+        margin-top: 1em;
+        padding-top: 0.5em;
+    }
+    .cercle {
+        background-image: url("../images/image_site130x280.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        align-items: flex-end;
+        width: 320px;
+        height: 160px;
+        border: 1px solid #e3e3e3;
+        border-radius: 100%;
+        margin: auto;
+    }
+    p.text-presentation{
+        padding-top: 4em;
+    }
+    .block-section {
+        padding-bottom: 1em;
+        padding-top: 1em;
+    }
+    .texte-defilant {
+        font-size: 1.5em;
+        color: black;
+    }
+    .presentation-section, div.contact-section, div.cv-section {
+        padding-top: 0.1em;
+    }
+    .presentation-block-tablette {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 2em;
+    }
+    .carousel-image {
+        height: 530px;
+    }
+    .carousel-inner {
+        width: 90%;
+        justify-content: center;
+        padding-left: 7em;
+    }
+    .card-realisations, div.presentation-block {
+        display: none;
+    }
+    div.text-realisations-mobile, div.text-realisations-pc {
+        padding-left: 5em;
+    }
+    .card-realisations-tablette {
+        padding-left: 10em;
+    }
+
+    .responsive {
+        width: 100%;
+    }
+
+    .contact-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact-item, div.block-realisations, div.presentation-block {
+        padding-top: 1.5em;
+    }
+    .cercle:hover, img.carousel-image:hover {
+        transform: scale(2);
+    }
+
+    #inlineFrameExample {
+        width: 100%;
+        height: 500px;
+    }
+
+    .cadre-text {
+        width: 60%;
+        margin: auto;
+    }
 
 }
 
+@media only screen
+and (min-width: 1224px){
+    .titre-section {
+        display: flex;
+        justify-content: center;
+        font-size: 2em;
+        font-weight: bold;
+        margin-top: 1em;
+        padding-top: 0.5em;
+    }
+    p.text-presentation{
+        padding-top: 4em;
+    }
+    .cercle {
+        background-image: url("../images/image_site130x280.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        align-items: flex-end;
+        width: 250px;
+        height: 160px;
+        border: 1px solid #e3e3e3;
+        border-radius: 100%;
+        margin: auto;
+    }
+    .block-section {
+        padding-bottom: 1em;
+        padding-top: 1em;
+    }
+    .texte-defilant {
+        font-size: 1.5em;
+        color: black;
+    }
+    .presentation-section, div.contact-section, div.cv-section {
+        padding-top: 0.1em;
+    }
+    .presentation-block-tablette {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 2em;
+    }
+    .carousel-image {
+        height: 530px;
+    }
+    .carousel-inner {
+        width: 90%;
+        justify-content: center;
+        padding-left: 7em;
+    }
+    .card-realisations, div.presentation-block {
+        display: none;
+    }
+    div.text-realisations-mobile, div.text-realisations-pc {
+        padding-left: 5em;
+    }
+    .card-realisations-tablette {
+        padding-left: 10em;
+    }
 
+    .responsive {
+        width: 100%;
+    }
 
+    .contact-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
+    .contact-item, div.block-realisations, div.presentation-block {
+        padding-top: 1.5em;
+    }
+    .cercle:hover, img.carousel-image:hover {
+        transform: scale(2);
+    }
 
+    #inlineFrameExample {
+        width: 100%;
+        height: 500px;
+    }
 
+    .cadre-text {
+        width: 60%;
+        margin: auto;
+    }
 
-
-
+}
 
 
 /*------------- pour flouter une image ---------------------*/

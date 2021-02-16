@@ -2,26 +2,35 @@
     <h1 class="titre-section titre-presentation">Présentation</h1>
     <hr>
 
-    <div class="presentation-block col-lg-12">
+    <div class="presentation-block-tablette text-tablette">
+        <p class="text-presentation">
+            Je suis Aboubacar SANO, développeur Web PHP et Javascript. Ca fait maintenant 3ans que je suis dans ce domaine suite à une réconversion.
+            <br>
+            J'ai décidé de créer ce site dans un but professionnel. Vous pouvez trouver mon CV, mes diplômes dans le domaine et un de mes projets qui est une application mobile de liste de tâches.
+            <br>
+            L'application est en phase de test des fonctions d'ajout, de suppression et de consultation.
+            <br>
+            D'autres projets notamment le code de ce projet-ci sont consultables dans "Réalisations".
+            <br>
+            N'hésitez pas à me contacter pour une collaboration ou un avis !
+        </p>
+        <div class="card cercle img-presentation">
 
-<!--        <div class="presentation-text col-lg-8"> J'ai la <b>conviction</b> que pour être <b>épanoui</b> pleinement il faut-->
-<!--            se fixer des <b>objectifs</b> et s'y accrocher fermement. <br>-->
-<!--            C'est ce que je fais depuis maintenant 3 ans, lorsque j'ai décidé de faire une réconversion pour ce domaine.-->
-<!--            <br><b>Curieux</b> de nature, j'ai eté attiré tout naturellement vers ce domaine du fait de sa diversité,-->
-<!--            mais aussi parce que l'IT est l'avenir de demain et je me sens <b>reconnaissant</b> de participer à cet-->
-<!--            essort.-->
-<!--            <br> J'ai commencé en autodidacte et par la suite des choses j'ai intégré des formations-->
-<!--            <details>-->
-<!--                <summary>Lire la suite ...</summary>-->
-<!--                grâce auxquelles j'ai pu monter en compétence, mais aussi m'ont donné la certitude que je voulais faire partie de ce monde.-->
-<!--                <br> Si vous voulez me donner de la <b>force</b> pour mon projet, un partage sur les réseaux, un-->
-<!--                <b>avis</b> et surtout une <b>collaboration</b> seront l'occasion de vous apporter mon-->
-<!--                <b>savoir-faire</b> et mon <b>savoir-être</b>-->
-        <div class="presentation col-lg-8">
-                De nature curieuse et ouvert aux nouvelles technologies, je me suis naturellement tourné vers ce domaine il ya 3 ans qui offre
         </div>
-        <div class="col-lg-4 cercle">
+    </div>
 
+    <div class="presentation-block col-lg-12">
+        <div class="presentation col-lg-8">
+            Je suis Aboubacar SANO, développeur Web PHP et Javascript. Ca fait maintenant 3ans que je suis dans ce domaine suite à une réconversion.
+            <br>
+            J'ai décidé de créer ce site dans un but professionnel. Vous pouvez trouver mon CV, mes diplômes dans le domaine et un de mes projets qui est une application mobile de liste de tâches.
+            <br>
+            L'application est en phase de test des fonctions d'ajout, de suppression et de consultation. Mes autres projets sont consultables en version tablette et pc.
+
+
+
+        </div>
+        <div class="card col-lg-4 cercle">
         </div>
     </div>
 </div>
