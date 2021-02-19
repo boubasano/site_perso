@@ -8,5 +8,5 @@ RewriteEngine On
 #Deliver static file
 RewriteCond %{REQUEST_FILENAME} -f
 RewriteRule ^ - [L]
-#Trigger index.php and add query string append flag
+#Trigger index_old.php and add query string append flag
 RewriteRule ^(.*)$ index.php [QSA,L]

@@ -106,7 +106,7 @@ p {
 
 #cv {
     width: 100vw;
-    height: 90%;
+    height: 100vh;
     background: lightgrey;
     margin: auto;
 
@@ -117,7 +117,7 @@ p {
 
 #diplomes {
     width: 100vw;
-    height: 90%;
+    /*height: 100vh;*/
     background: rgba(128, 128, 128, 0.1);
 }
 
@@ -142,7 +142,7 @@ p {
 
 #realisations {
     width: 100vw;
-    height: 98%;
+    /*height: 100vh;*/
     background: lightgrey;
 }
 
@@ -256,7 +256,7 @@ div.desc {
 
 #contact {
     width: 100vw;
-    height: 99%;
+    height: 100vh;
     background-color: rgba(240, 230, 140, 0.2);
     background-size: cover;
     display: flex;

@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18ed9d98-7d3f-4c1c-b13b-466c158fc486" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index_old.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/tempasse/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cv/cv.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv/cv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/presentation.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/presentation.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +43,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../appli_meteo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tempasse/css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -52,6 +61,8 @@
       <recent name="C:\Projects\site_presentation\config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\site_presentation\tempasse\css" />
+      <recent name="C:\Projects\site_presentation\tempasse" />
       <recent name="C:\Projects\site_presentation\public\assets" />
     </key>
   </component>
@@ -243,7 +254,21 @@
       <workItem from="1613478247471" duration="3466000" />
       <workItem from="1613484053290" duration="92000" />
       <workItem from="1613511869451" duration="983000" />
-      <workItem from="1613514096106" duration="169000" />
+      <workItem from="1613514096106" duration="944000" />
+      <workItem from="1613550200073" duration="13000" />
+      <workItem from="1613568537360" duration="612000" />
+      <workItem from="1613603409738" duration="16000" />
+      <workItem from="1613643198316" duration="610000" />
+      <workItem from="1613652346826" duration="123000" />
+      <workItem from="1613653173777" duration="1478000" />
+      <workItem from="1613654691804" duration="1051000" />
+      <workItem from="1613657126469" duration="1573000" />
+      <workItem from="1613659647495" duration="594000" />
+      <workItem from="1613684791112" duration="1776000" />
+      <workItem from="1613686606234" duration="1778000" />
+      <workItem from="1613688416841" duration="1778000" />
+      <workItem from="1613690229572" duration="1783000" />
+      <workItem from="1613692060028" duration="1213000" />
     </task>
     <servers />
   </component>
@@ -255,10 +280,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="163" key="#PHP/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612569221654" />
-    <state x="668" y="329" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613391042212">
+    <state x="668" y="329" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613692363312">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="329" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613391042212" />
+    <state x="668" y="329" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613692363312" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1613484143499">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -267,10 +292,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="772" y="243" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612569977477" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1613349944863">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1613657560159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613349944863" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613657560159" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1612569050664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

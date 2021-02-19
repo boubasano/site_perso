@@ -5,7 +5,7 @@
     <iframe id="inlineFrameExample"
             title="Inline Frame Example"
             width="100%"
-            height="500px"
+            height="100px"
             src="https://drive.google.com/file/d/1dwK2S93upuZQRt1Wo4XpWm22smMDB7_m/preview">
     </iframe>
 </div>
