@@ -1,6 +1,6 @@
 <div class="container contact-section block-section">
     <h1 class="titre-section titre-contact">Contact</h1>
-
+    <hr>
     <div class="contact-item">
 
         <div class="card text-center cadre-text">
